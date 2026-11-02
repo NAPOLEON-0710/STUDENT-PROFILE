@@ -1,7 +1,10 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Profile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Napoleon - My Profile</title>
 
     <style>
         body {
@@ -17,6 +20,7 @@
             background: white;
             padding: 30px;
             border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
         h1 {
@@ -37,12 +41,24 @@
 
         .profile-photo {
             display: block;
-            width: 140px;
-            height: 140px;
+            width: 150px;
+            height: 150px;
             object-fit: cover;
             border-radius: 50%;
-            margin: 15px auto;
+            margin: 20px auto;
             border: 3px solid #2457a7;
+        }
+
+        .contact {
+            background: #f2f4f8;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 25px;
+            color: #666;
         }
     </style>
 </head>
@@ -53,26 +69,33 @@
 
         <h1>Welcome to My Profile</h1>
 
-        <!-- My Profile Photograph -->
+        <!-- Profile Photograph -->
         <img src="./profile.jpeg"
-           class="profile-photo"
-            alt="Napoleon Profile Photo">
+             class="profile-photo"
+             alt="Napoleon's Profile Photo">
 
         <h2>About Me</h2>
+
         <p>My name is Napoleon.</p>
+
         <p>
             I am a Computer Science Engineering graduate
             interested in Linux, Git, GitHub, AWS and DevOps.
         </p>
 
         <h2>Education</h2>
+
         <p>
-            Bachelor of Engineering (BE) - Computer Science Engineering
+            Bachelor of Engineering (BE) -
+            Computer Science Engineering
         </p>
+
         <p>Graduation Year: 2023</p>
+
         <p>College Name: MIET TRICHY</p>
 
         <h2>Technical Skills</h2>
+
         <ul>
             <li>Linux</li>
             <li>AWS</li>
@@ -82,6 +105,7 @@
         </ul>
 
         <h2>My Career Objective</h2>
+
         <p>
             My goal is to become an AWS and DevOps Engineer.
             I am continuously learning new technologies
@@ -89,17 +113,25 @@
         </p>
 
         <h2>Career Interest</h2>
+
         <p>
             I am looking for an opportunity in the IT industry
             where I can learn and grow professionally.
         </p>
 
-        <h2>Contact: 6379662544</h2>
-        <p>Email: ln5765129@gmail.com</p>
+        <h2>Contact Details</h2>
+
+        <div class="contact">
+            <p>Phone: 6379662544</p>
+            <p>Email: ln5765129@gmail.com</p>
+        </div>
+
+        <footer>
+            <p>© 2026 Napoleon | My Profile</p>
+        </footer>
 
     </div>
 
 </body>
 </html>
-
 
